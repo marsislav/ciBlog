@@ -1,3 +1,3 @@
-<div class="container">
+<main class="container">
 This is home
-</div>
+</main>
