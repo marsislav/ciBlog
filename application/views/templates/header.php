@@ -9,6 +9,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap" rel="stylesheet">
+	<script src="https://cdn.ckeditor.com/ckeditor5/31.1.0/classic/ckeditor.js"></script>
     <title>CI Blog</title>
 </head>
 <header>
@@ -19,6 +20,7 @@
 <li><a href="<?php echo base_url()?>">Home</a></li>
 <li><a href="<?php echo base_url()?>about">About</a></li>
 	<li><a href="<?php echo base_url()?>posts">Blog</a></li>
+	<li><a href="<?php echo base_url()?>posts/create">Create post</a></li>
 
 </ul>
 </div>

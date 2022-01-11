@@ -2,8 +2,9 @@
 <h2>
 	<?php echo $post['title'];?>
 </h2>
-<small>Posted on: <?php echo $post['created_at']; ?></small>
-<?php echo $post['body'];?>
+<small>Posted on: <?php echo $post['created_at']; ?> </small>
+	<img src="<?php echo site_url();?>/assets/img/posts/<?php echo $post['post_image']; ?>" alt="Post image">
+	<?php echo $post['body'];?>
 	<a href="edit/<?php echo $post['slug'];?>" class="btn btnCool">Edit</a>
 	<?php echo form_open('/posts/delete/'.$post['id']);?>
 	<input type="submit" value="Delete" class="btn btnDanger">

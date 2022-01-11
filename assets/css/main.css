@@ -12,6 +12,7 @@ html{
 	background-attachment: fixed;
 	color:lime;
 	font-size:22px;
+
 }
 nav {
 	background:rgba(25,187,154, 0.7);
@@ -20,7 +21,9 @@ nav {
 main.container {
 background: rgba(0,0,0,0.7);
 	border-radius:3px;
-	box-shadow: 0 0 10px 7px #1E2353;
+	box-shadow: 0 0 10px 4px #1E2353;
+	margin-top:50px;
+	margin-bottom: 50px;
 }
 .btn {
 	padding:7px 15px;
@@ -28,6 +31,9 @@ background: rgba(0,0,0,0.7);
 	transition:all 0.3s;
 	cursor:pointer;
 	border:0;
+	text-decoration: none;
+	font-size:18px;
+	display: inline-block;
 
 }
 .btn:hover {
@@ -40,4 +46,8 @@ background: rgba(0,0,0,0.7);
 }
 .btnCool{
 	background:#18BC8F;
+}
+footer {
+	background:rgba(25,187,154, 0.7);
+
 }
