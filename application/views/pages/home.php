@@ -1,3 +1,2 @@
-<main class="container">
-This is home
-</main>
+<h2><?= $title ?></h2>
+<p>Welcome to the ciBlog application</p>

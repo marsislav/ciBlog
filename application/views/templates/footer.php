@@ -1,6 +1,6 @@
 <footer>
 	<div class="container">
-	ciBlog by Marsislav
+		ciBlog by Marsislav
 	</div>
 </footer>
 <script>
