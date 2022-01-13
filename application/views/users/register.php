@@ -1,5 +1,5 @@
 <?php echo validation_errors(); ?>
-
+<main class="container">
 <?php echo form_open('users/register'); ?>
 	<div class="row">
 		<div class="col-md-4 col-md-offset-4">
@@ -28,7 +28,8 @@
 				<label>Confirm Password</label>
 				<input type="password" class="form-control" name="password2" placeholder="Confirm Password">
 			</div>
-			<button type="submit" class="btn btn-primary btn-block">Submit</button>
+			<button type="submit" class="btn btnCool">Submit</button>
 		</div>
 	</div>
 <?php echo form_close(); ?>
+</main>

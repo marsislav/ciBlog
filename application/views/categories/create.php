@@ -1,3 +1,4 @@
+<main class="container">
 <h2><?= $title ;?></h2>
 
 <?php echo validation_errors(); ?>
@@ -9,3 +10,4 @@
 	</div>
 	<button type="submit" class="btn btn-default">Submit</button>
 </form>
+</main>
